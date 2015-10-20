@@ -7,3 +7,11 @@ What value do you think it offers?
 	Staging area allows to mark a change in time, while I continue to work on a file and either 
 	I can update the staging area with the updates or discard the changes in the file.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	On every logical change that is completed, the change can be committed, 
+	thus the staging area can be used for another logical change.
+	
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+	When I am working on two different task and task 2 is ready for review while I need some more time testing task 1.
+	Branches will enable me to switch gears and work on a different task, without worrying about losing or introducing errors from another branch.
