@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A ".git" folder is added to the directory and it will allow me to track changes into the 
+	directory and will allow me to see the history of a given file.
+	
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+	Staging area allows to mark a change in time, while I continue to work on a file and either 
+	I can update the staging area with the updates or discard the changes in the file.
+
