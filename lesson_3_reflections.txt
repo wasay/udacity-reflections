@@ -11,3 +11,6 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branches lets the users work on different task at any given time and switch between branches when different priority is assigned to a different task.
 	
 	Forks only when on GitHub, Clones when I want to copy of a project. Branches when I want to work on a particular task or branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	The last known state will help in looking up what is changed and also help in fast forwarding the change if non conflicts are found.
