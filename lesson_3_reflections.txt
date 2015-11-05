@@ -6,11 +6,27 @@ Why might you want to always pull changes manually rather than having Git automa
 	Also I may be not on the same branch, which can create more issues with automatic pull.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
-	Forks are created from GitHub only, forks are created mostly when the user may not have permissions to push changes to remote.
-	Clones allow the user to clone and branch from GitHub or local command line.
-	Branches lets the users work on different task at any given time and switch between branches when different priority is assigned to a different task.
+	Forks are created from GitHub only, forks are created mostly when 
+	the user may not have permissions to push changes to remote.
 	
-	Forks only when on GitHub, Clones when I want to copy of a project. Branches when I want to work on a particular task or branch.
+	Clones allow the user to clone and branch from GitHub or local command line.
+	Branches lets the users work on different task at any given time and switch between branches 
+	when different priority is assigned to a different task.
+	
+	Forks only when on GitHub, Clones when I want to copy of a project. 
+	Branches when I want to work on a particular task or branch.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-	The last known state will help in looking up what is changed and also help in fast forwarding the change if non conflicts are found.
+	The last known state will help in looking up what is changed and also help 
+	in fast forwarding the change if non conflicts are found.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Before Git or GitHub usage I have used a FTP compare software called Beyond Compare, 
+	which line by line compare and it was light years ahead of another older FTP software called WFTP.
+	Even though the Beyond Compare was easier and I still use it for some projects, it is not as easy
+	as or with peace of mind as Git or GitHub.
+	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	I would use a separate branch when my work may conflict with others work or if my work might take longer time to complete.
+	Working in a separate branch will make it easy to switch a branch and work on a higher priority task,
+	while not losing a extended period work if it's done in a separate branch.
